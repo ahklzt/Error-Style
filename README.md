@@ -4,7 +4,7 @@ XenForo 2.2 Addons
 
 Простой плагин который изменяет шаблон схожий с Lolz
 
-[[https://ddcats.live/attachments/740/](https://ddcats.live/attachments/736/)](https://ddcats.live/attachments/735/)
+![image](https://github.com/user-attachments/assets/76b96e5b-e6a6-48c1-b3b7-7e509d6f648d)
 
 Credits: 
 https://ddcats.live
