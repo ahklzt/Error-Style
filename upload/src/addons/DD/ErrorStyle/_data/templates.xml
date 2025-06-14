@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="dd_error" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:css>
+	.p-body-header {
+		display: none;
+	}
+	.dd-block--outer {
+		display: none;
+	}
+	.dd-error-block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		background-color: #dbe0e5;
+		border-radius: 10px;
+		gap: 20px;
+	}
+	.dd-error-block img {
+		max-width: 160px;
+	}
+	.dd-error-block .text-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+	}
+	.dd-error-block .text-container .title {
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.dd-error-block .text-container .subtitle {
+		color: #949494;
+		max-width: 433px;
+		text-align: center;
+		line-height: 170%;
+	}
+	.dd-error-block .divider {
+		width: 100%;
+		background: linear-gradient(90deg, #36363600 20%, #3b3b3b 50%, #36363600 80%);
+		height: 1px;
+	}
+	.dd-error-block .button-container {
+		display: flex;
+		gap: 8px;
+	}
+	.button.primary {
+		color: #f5f5f5;
+		background: linear-gradient(88deg, #0177a9 .29%, #008cff 51.58%, #0070cc 100%);
+		transition: background 0.3s, color 0.3s;
+	}
+	.p-breadcrumbs {
+		display: none;
+	}
+	.p-sectionLinks {
+		display: none;
+	}
+</xf:css>
+
+<xf:title>{{ phrase('oops_we_ran_into_some_problems') }}</xf:title>
+
+<div class="blockMessage">
+	<xf:if is="$error">
+		<div class="dd-error-block">
+			<img src="{$xf.options.dd_emoji_style}">
+			<div class="text-container">
+				<span class="title">
+					{$xf.options.dd_error_text}
+				</span>
+				<span class="subtitle">
+					{$xf.options.dd_subtitle_text} 
+				</span>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="button-container">
+				<a class="button primary" href="{$xf.options.dd_main_link_u_bord}">
+					{{ phrase('dd_return_to_homepage') }}
+				</a>
+			</div>
+		</div>
+	<xf:else />
+		<xf:foreach loop="$errors" value="$error">
+			<div class="dd-error-block">
+				<img src="{$xf.options.dd_emoji_style}">
+				<div class="text-container">
+					<span class="title">
+						{$xf.options.dd_error_text}
+					</span>
+					<span class="subtitle">
+						{$xf.options.dd_subtitle_text}
+					</span>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="button-container">
+					<a class="button primary" href="{$xf.options.dd_main_link_u_bord}">
+						{{ phrase('dd_return_to_homepage') }}
+					</a>
+				</div>
+			</div>
+		</xf:foreach>
+	</xf:if>
+</div>]]></template>
+</templates>

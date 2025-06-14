@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="dd_emoji_style" edit_format="textbox" data_type="string" advanced="0">
+    <default_value>https://nztcdn.com/files/e087406d-ff9d-42f9-a84b-ff3e386c9ace.webp</default_value>
+    <relation group_id="dd_errordising" display_order="1"/>
+  </option>
+  <option option_id="dd_error_text" edit_format="textbox" data_type="string" advanced="0">
+    <default_value>Что-то пошло не так...</default_value>
+    <relation group_id="dd_errordising" display_order="20"/>
+  </option>
+  <option option_id="dd_main_link_u_bord" edit_format="textbox" data_type="string" advanced="0">
+    <default_value>https://ddcats.live/</default_value>
+    <relation group_id="dd_errordising" display_order="40"/>
+  </option>
+  <option option_id="dd_subtitle_text" edit_format="textbox" data_type="string" advanced="0">
+    <default_value>Запрашиваемая страница не найдена. 
+Вернитесь на главную страницу и попробуйте ещё раз</default_value>
+    <relation group_id="dd_errordising" display_order="30"/>
+  </option>
+</options>

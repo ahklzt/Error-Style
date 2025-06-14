@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="error" modification_key="dd_error_style_modification" description="Error Style" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:title>{{ phrase('oops_we_ran_into_some_problems') }}</xf:title>
+
+<div class="blockMessage">
+	<xf:if is="$error">
+		{$error|raw}
+	<xf:else />
+		<ul>
+		<xf:foreach loop="$errors" value="$error">
+			<li>{$error|raw}</li>
+		</xf:foreach>
+		</ul>
+	</xf:if>
+</div>]]></find>
+    <replace><![CDATA[<xf:include template="dd_error" />]]></replace>
+  </modification>
+</template_modifications>

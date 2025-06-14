@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="dd_return_to_homepage" version_id="1000070" version_string="1.0.0"><![CDATA[Return to home page]]></phrase>
+  <phrase title="option.dd_emoji_style" version_id="1000070" version_string="1.0.0"><![CDATA[Emoji]]></phrase>
+  <phrase title="option.dd_error_text" version_id="1000070" version_string="1.0.0"><![CDATA[Main Text]]></phrase>
+  <phrase title="option.dd_main_link_u_bord" version_id="1000070" version_string="1.0.0"><![CDATA[Link u bord]]></phrase>
+  <phrase title="option.dd_subtitle_text" version_id="1000070" version_string="1.0.0"><![CDATA[Subtitle Text]]></phrase>
+  <phrase title="option_explain.dd_emoji_style" version_id="1000070" version_string="1.0.0"><![CDATA[Emoji that will be shown to the user]]></phrase>
+  <phrase title="option_explain.dd_error_text" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.dd_main_link_u_bord" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.dd_subtitle_text" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_group.dd_errordising" version_id="1000070" version_string="1.0.0"><![CDATA[[DD] Error Style]]></phrase>
+  <phrase title="option_group_description.dd_errordising" version_id="1000070" version_string="1.0.0"><![CDATA[A newer error design.]]></phrase>
+</phrases>
